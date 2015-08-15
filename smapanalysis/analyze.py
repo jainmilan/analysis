@@ -10,7 +10,7 @@ from plot import scatter_plot, yy_plot
 import matplotlib
 import matplotlib.pyplot as plt
 
-matplotlib.style.use('ggplot')
+matplotlib.style.use('fivethirtyeight')
 
 
 def compare_activities(activities, room, conf):

@@ -11,13 +11,13 @@ def read_file(filename, index_col):
     return df
 
 
-def read_activities(filename="../activity.csv"):
+def read_activities(filename="meta-info/activity.csv"):
     index_col = [0]
     activity_tags = read_file(filename, index_col)
     return activity_tags
 
 
-def read_summary(filename="../summary.csv"):
+def read_summary(filename="meta-info/summary.csv"):
     index_col=["ActivityID"]
     summary = read_file(filename, index_col)
     return summary

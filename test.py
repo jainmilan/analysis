@@ -3,13 +3,13 @@ __author__ = 'milan'
 import json
 import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.style.use('ggplot')
+matplotlib.style.use('fivethirtyeight')
 
 
 from smapanalysis import analyze
 from sklearn.cluster import KMeans
 
-config_file = "../data.json"
+config_file = "meta-info/data.json"
 
 # Process and read configurations
 with open(config_file) as data_file:

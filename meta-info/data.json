@@ -1,0 +1,193 @@
+{
+	"archiver" : "192.168.1.38",
+	"date_frmt" : "%d-%m-%Y %H:%M",
+	"power": {
+		"br" : {
+				"archiver_port" : "9106",
+				"room" : "Bedroom",
+				"uuid": "c47481c6-2a7d-5951-9e8b-f69908229e87"
+		},
+		"lr" : {
+				"archiver_port" : "9106",
+				"room" : "Living Room",
+				"uuid": "8b901bab-6bb6-5461-a4b4-b2d43c482cc6"
+		},
+		"brac" : {
+				"archiver_port" : "2047",
+				"room" : "Bedroom",
+				"uuid": "86bb3300-981e-5ac3-904b-0bf36660a541"
+		}
+		
+	},
+	"temperature": {
+		"brl1" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "20c9f855-89f4-55cf-8733-28852ebddeaa"
+		},
+		"brl2" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "739667ee-b8d4-5244-84d8-5a6d3a3592d5"
+		},
+		"brl3" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "31e1fee2-b266-5b2f-83ef-f123f7c57f8f"
+		},
+		"brl4" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "3a393078-f86f-5fe5-83f4-fe8c1ddcdf9d"
+		},
+		"lrl1" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "c5862b93-a025-5c3f-8e72-fd8e2a00d4b2"
+		},
+		"lrl2" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "a69535f7-c736-5396-ab74-b346dfd914c5"
+		},
+		"lrl3" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "ed29bad9-16a3-5c6f-a1af-01d057e245be"
+		},
+		"lrl4" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "c3667a70-2d96-5d72-b796-f32baa2c0b6b"
+		},
+		"bext" : {
+				"archiver_port": "2047",
+				"room" : "Balcony",
+				"uuid": "b18379f1-e74a-562d-95ae-d16ae84a7392"
+		},
+		"wuconditions" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "e96fe108-fa8d-571a-ae78-13be76b21d48"
+		},
+		"wuforecast" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "24186bd3-27d6-5a10-bf6d-22e3cb4693c0"
+		}
+	},
+	"temperature_ds18b20": {
+		"brl1" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "a23a2e08-ab40-5550-b8ae-74d6ba2f8382"
+		},
+		"brl2" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "f867106c-7c2b-54d5-b8ef-40cae5a3756c"
+		},
+		"brl3" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "4ad9e6f1-7f81-598b-b5da-759e0b4e96c1"
+		},
+		"brl4" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "4866d3d6-100d-506d-9c94-e5c301e13479"
+		},
+		"lrl1" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "64651787-7191-5cf5-84ac-9ebecdd103f8"
+		},
+		"lrl2" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "a5218c04-a1b4-552a-a66d-b5dbb1e304e5"
+		},
+		"lrl3" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "074be14e-16f3-5a3f-a84d-bf4dd3f6d7dd"
+		},
+		"lrl4" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "26363145-0ff7-5efe-a94e-c68bfcce9e08"
+		},
+		"bext" : {
+				"archiver_port": "2047",
+				"room" : "Balcony",
+				"uuid": "ec3b796d-31b6-5432-9d8c-7782d059e97b"
+		},
+		"wuconditions" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "e96fe108-fa8d-571a-ae78-13be76b21d48"
+		},
+		"wuforecast" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "24186bd3-27d6-5a10-bf6d-22e3cb4693c0"
+		}
+	},
+	"humidity": {
+		"brl1" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "998e5239-75c1-5de7-8977-5ac1a04fb2ca"
+		},
+		"brl2" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "1e436583-8abf-5629-8655-addee5ed946b"
+		},
+		"brl3" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "4d494231-34f4-58fb-995f-1e883b2bc930"
+		},
+		"brl4" : {
+				"archiver_port": "2047",
+				"room" : "Bedroom",
+				"uuid": "dd73e18f-fffc-599b-9bca-0c4f5fd5644a"
+		},
+		"lrl1" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "f13b5f53-d9dc-591c-8850-ddb150e8e7df"
+		},
+		"lrl2" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "a557bb97-5f06-55a4-8901-e1e0042b7c6f"
+		},
+		"lrl3" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "31de6e11-e2f0-5fa0-ace1-f2bf78bce663"
+		},
+		"lrl4" : {
+				"archiver_port": "2047",
+				"room" : "Living Room",
+				"uuid": "8877742c-ee27-5ff1-b070-844d4fb81237"
+		},
+		"bext" : {
+				"archiver_port": "2047",
+				"room" : "Balcony",
+				"uuid": "c9ed4ba1-c621-5a38-a41b-798563759930"
+		},
+		"wuconditions" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "551bccab-d94f-5163-b1e1-ca5e7e37cb91"
+		},
+		"wuforecast" : {
+				"archiver_port": "2047",
+				"room" : "Server",
+				"uuid": "cea5240b-1502-5fe1-be87-107b33fde7f8"
+		}
+	}
+}
