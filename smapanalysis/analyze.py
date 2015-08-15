@@ -58,7 +58,6 @@ def peak_analysis(activities, room, conf):
     idx = 1
     power_cols = filter(lambda x: 'Power' in x, df.columns)
     plots = 100*(numpy.ceil(len(power_cols)/2)+1) + 20
-    print plots
     results = pandas.DataFrame(index=activities)
     for column in power_cols:
         power_df = df[column]
@@ -81,10 +80,8 @@ def peak_analysis(activities, room, conf):
         scatter_plot(power_df, labels, ax, activity)
         idx = idx + 1
 
-    print plots + idx
-
     ax1 = plt.subplot(plots + idx)  # Create matplotlib axes
-    print results
+    results.to_csv('Results/Stats/Raw/' + room[0] + '_Summary.csv')
     yy_plot(results["Peak"], results["Text_Avg"], ax1)
 
     fig.tight_layout()
