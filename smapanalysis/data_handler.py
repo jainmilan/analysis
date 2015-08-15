@@ -27,6 +27,7 @@ def get_tag(activity, room):
     summary = read_summary()
     tags = read_activities()
     x = summary[(summary['Event']==activity) & (summary['Room']==room)]
+    print x
     tag = tags.loc[x.index.values[0]]
     return tag
 

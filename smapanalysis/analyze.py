@@ -45,7 +45,7 @@ def peak_analysis(activities, room, conf):
     sensors = ["power", "temperature_ds18b20"]
     locations = dict()
     locations["temperature_ds18b20"] = ["wuconditions"]
-    if room == "Bedroom":
+    if room[0] == "Bedroom":
         locations["power"] = ["brac"]
     else:
         locations["power"] = ["lr"]
