@@ -54,6 +54,7 @@ def peak_analysis(activities, room, conf):
     peaks = numpy.array([])
 
     fig = plt.figure(figsize=(18,12), facecolor='w', edgecolor='k')
+    fig.suptitle(room[0] + " Peak Power Analysis", fontsize=14, fontweight='bold')
     idx = 1
     power_cols = filter(lambda x: 'Power' in x, df.columns)
     plots = 100*(numpy.ceil(len(power_cols)/2)+1) + 20
@@ -87,5 +88,6 @@ def peak_analysis(activities, room, conf):
     yy_plot(results["Peak"], results["Text_Avg"], ax1)
 
     fig.tight_layout()
-    plt.show()
+
+    plt.savefig('Results/Figures/Raw/' + room[0] + '_Plot.png')
     return results, df
